@@ -5,7 +5,7 @@ import subprocess
 import sys
 import re
 
-repos_dir = "/mnt/shared/git/"
+repos_dir = os.path.expanduser("~/repos/")
 
 if __name__ == "__main__":
     repo_url = sys.argv[1]
